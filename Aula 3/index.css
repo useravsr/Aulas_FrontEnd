@@ -1,0 +1,57 @@
+#header{
+
+    height: 440px;
+    width: 550px;
+    background-color: green;
+    margin: auto;
+   
+
+}
+#caixa{
+
+    background-color: black;
+    
+}
+.tomate{
+
+    width: 550px;
+    
+}   
+.titulo{
+
+    background-color: rgb(0, 128, 11);
+    text-align: center; 
+    border: 1px solid black;
+
+}
+#corpo{
+
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: green;
+    padding: 10px;
+    padding-top: 2px;
+    border-radius: 5px;
+    
+}
+#gif{
+
+    width: 340px;
+    height: 340px;
+    margin: auto;
+    background-color: black;
+    
+}
+p{
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+
+}
+.tomateiro{
+
+    width: 340px;
+    height: 340px;
+
+}
