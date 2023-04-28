@@ -1,7 +1,64 @@
+html,body {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    margin: 0;
+    padding: 0;
+
+}
+
 header{
 
-    padding: 10px;
     text-align: center;
     background-color: red;
+    padding-top: 30px;
+    
+
+}
+#barra{
+
+    padding-top: 35px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+
+}
+#itens{
+
+    margin: 15px;
+    padding: 10px;
+    border: 3px red solid;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none; 
+    color: red;   
+
+}
+
+#caixa{
+
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    background-color: red;
+
+}
+#fotos{
+
+    width: 100%;
+
+}
+#textos{
+
+    background-color: white;
+    margin: 5px;
+    padding-left: 15px;
+    padding-top: 1px;
+    border-radius: 5px;
+
+}
+p{
+
+    padding: 10px;
 
 }
