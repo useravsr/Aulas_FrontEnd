@@ -1,138 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Blog</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-
-        nav {
-            background-color: #f1f1f1;
-            padding: 10px;
-        }
-
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-        }
-
-        nav ul li {
-            margin-right: 10px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #333;
-            padding: 5px 10px;
-            border-radius: 3px;
-        }
-
-        main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        article {
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            color: #333;
-        }
-
-        p {
-            color: #666;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        #whats{
-
-            background-color: green;
-            color: white;
-            width: 63px;
-            height: 63px;
-            position: fixed;
-            bottom: 10px;
-            right: 10px;
-            border-radius: 30px;
-
-        }
-        .centro{
-
-            position: absolute;
-            top: 5px;
-            width: 100%;
-            text-align: center;
-
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="webthemez">
+  <title>Fitness</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <header>
-        <h1>Meu Blog</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <article>
-            <h2>Título do Artigo 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae ligula eget justo iaculis convallis.</p>
-        </article>
-
-        <article>
-            <h2>Título do Artigo 2</h2>
-            <p>Donec ac purus nec diam laoreet sollicitudin. Nulla facilisi. Sed sed turpis vitae dui accumsan aliquam sed in dolor.</p>
-        </article>
-
-        <article>
-            <h2>Título do Artigo 3</h2>
-            <p>Etiam venenatis felis ac lectus fringilla, eu molestie risus rutrum. Duis quis finibus purus.</p>
-        </article>
-
-        <div id="whats">
-
-            <div class="centro">
-                
-                <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank"> <img src="whatsapp-messenger.png" width="50px"> </a>
-
-            </div>   
-            
+<body id="home">
+  <header id="header">
+    <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html"><img src="images/logo.png" width="50px" alt="logo"></a>
         </div>
-    </main>
+      </div>
+    </nav>
+  </header>
+  <section id="hero-banner">
+    <div class="banner-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2><b>CapiFit</b></h2>
+            <p>Seja saudável, seja forte, seja você mesmo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title wow fadeInDown">Melhor para Crescer</h2>
+      </div>
+      <div class="row">
+        <div class="features">
+          <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+            <div class="service-box">
+              <h4 class="media-heading">Aeróbico</h4>
+              <p>Melhore a resistência e queime calorias com exercícios aeróbicos.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+            <div class="service-box">
+              <h4 class="media-heading">Cardio</h4>
+              <p>Fortaleça o sistema cardiovascular e melhore a circulação sanguínea com exercícios cardio.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+            <div class="service-box">
+              <h4 class="media-heading">Six Pack</h4>
+              <p>Obtenha o tão desejado "six pack" e fortaleça os músculos abdominais com exercícios específicos.</p>
+            </div>
+          </div>
 
-    <footer>
-        &copy; 2023 Meu Blog. Todos os direitos reservados.
-    </footer>
+          <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
+            <div class="service-box">
+              <h4 class="media-heading">Treinador Pessoal</h4>
+              <p>Conte com treinadores pessoais para orientação individualizada e motivação.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
+            <div class="service-box">
+              <h4 class="media-heading">Esportes para a Saúde</h4>
+              <p>Pratique esportes para melhorar a aptidão física e promover um estilo de vida saudável.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+            <div class="service-box">
+              <h4 class="media-heading">Bomba</h4>
+              <p>Use bomba.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="our-team">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title wow fadeInDown">Lendas do Esporte</h2>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-3">
+          <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+            <div class="team-img">
+              <img class="img-responsive" src="images/team/02.jpg" alt="Foto do Treinador Jay Cutler">
+            </div>
+            <div class="team-info">
+              <h3>Ramon Dino</h3>
+              <p>Ramon Rocha Queiroz é um fisiculturista profissional brasileiro, e o principal atleta "Classic" do Brasil. Atualmente é o vice-campeão do Mr. Olympia na categoria Classic Physique, e campeão do Arnold Classic Ohio. Seu peso limite dentro da categoria é de 101kg.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+            <div class="team-img">
+              <img class="img-responsive" src="images/team/01.jpg" alt="Foto do Treinador Arnold Schwarzenegger">
+            </div>
+            <div class="team-info">
+              <h3>Jay Cutler</h3>
+              <p>Jason Isaac "Jay" Cutler (Massachusetts, Sterling 3 de agosto de 1973) é um fisiculturista estadunidense. Conquistou o título Mr. Olympia por quatro vezes em 2006, 2007, 2009 e 2010.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+            <div class="team-img">
+              <img class="img-responsive" src="images/team/03.jpg" alt="Foto do Treinador Phil Heath">
+            </div>
+            <div class="team-info">
+              <h3>Chris Bumstead</h3>
+              <p>Christopher Adam Bumstead é um fisiculturista profissional canadense da IFBB. Bumstead é o atual vencedor do Mr. Olympia Classic Physique, tendo vencido a competição em 2019, 2020, 2021 e 2022.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+            <div class="team-img">
+              <img class="img-responsive" src="images/team/04.jpg" alt="Foto do Treinador Dorian Yates">
+            </div>
+            <div class="team-info">
+              <h3>Arnold Schwarzenegger</h3>
+              <p>Arnold Alois Schwarzenegger é um fisiculturista, ator, empresário e político austro-americano, tendo servido como 38º Governador do estado da Califórnia de 2004 a 2011.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</header>
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <p>&copy; 2023 CapiFit. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
